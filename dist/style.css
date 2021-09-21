@@ -1,0 +1,118 @@
+/*Done by Nahian36*/
+body {
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(116, 99, 212, 0.774);
+    background-blend-mode: lighten;
+    color: white;
+    margin: 5% 25% 0% 25%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+#cover {
+    background-color: rgba(35, 20, 54, 0.904);
+    padding: 60px 50px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 20px;
+    display: grid;
+}
+
+#name {
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 14px;
+    font-size: 18px;
+    margin-bottom: 20px; 
+}
+
+#email{
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 14px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/*Done by Nahian36*/
+#number {
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 14px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#dropdown-1 {
+    border-radius: 5px;
+    width: 103%;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 14px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:rgba(49, 49, 49, 0.774)
+}
+
+/*Done by Nahian36*/
+
+#not-sure {
+    margin-bottom: 30px;
+}
+
+input[type=radio], [type=checkbox] {
+    transform: scale(1.4)
+}
+
+#additional-courses {
+    margin-bottom: 30px;
+}
+
+#comment-label {
+    border-radius: 5px;
+    width: 98%;
+    height: 140px;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#submit {
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px;
+    font-size: 16px;
+    background-color: rgb(87, 214, 142);
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    margin: auto;
+    width: 260px;
+    justify-content: center;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+/*Done by Nahian36*/
